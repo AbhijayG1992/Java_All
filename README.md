@@ -16,7 +16,7 @@ By Dan Geabunea
 
 
 
-
+## Problems when no SOLID principles used 
 ### It is not enough for code to Work - Robert C Martin \n
 
 If code is unmaintainable then fixing bugs , or writing new code is difficult. 
@@ -25,10 +25,13 @@ Therefore SOLID Principles comes in picture.
 ### Code Fragility - Tendency of the software to break in many places every time it is changed.
 ### Code Rigidity -  Tendency of software to be difficult to change,even in simple ways. Every change causes a cascade of subsequent changes in dependent modules.
 
+
 ### High Technical Debt - Fragility and Rigidity are symptoms of this.
-### Technical Debt - Silent Killer
-                 The cost of prioritising fast delivery over code quality for long periods of time.  
-                >Choice to make 
+## Technical Debt - 
+                 
+### Silent Killer
+### The cost of prioritising fast delivery over code quality for long periods of time.  
+#### Choice to make 
                 >1) FAST Delivery 
                     Easiest fix/Fast 
                     Poor Written Code 
@@ -59,7 +62,7 @@ Write Code -> Pay debt ( refactor ) -> Write more Code  -> Pay debt ( refactor )
 4) interface segregation principle, 
 5) dependency inversion principle. 
 
-### Benefits of SOLID CODE -
+## Benefits of SOLID CODE -
 It is easier to understand and reason about. Changes are faster and have a minimal risk level. \nThe code is highly maintainable over long periods of time. \nAnd it is also cost-effective
 
 ### Other ways to keep architecture clean - 
